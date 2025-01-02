@@ -1,6 +1,6 @@
 [project]
 name = "Flask_API_Json"
-description = "A simple task application, written in Flask, using Python and a json data file."
+description = "A simple twitter clone application, written in Flask, using Python and a sql data file."
 version = "0.0.1"
 readme = "README.md"
 dependencies = [

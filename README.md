@@ -1,17 +1,40 @@
-# simple-todo-api
-REST API for simple todo application
+# twitter-clone
+
+Simple twitter clone application, base on REST API.
 
 ## DESCRIPTION
-Simple task management, this is application building with Python and Flask framework. 
-The application helps to create task, show all task, show selected task and delete selected task. 
-Data is sent in Json file. 
 
-Command:
+Simple Twitter clone application with users, tweets, comments, likes, followers management system based on crude operations (create,
+read, update, delete).This is application building with Python and Flask framework.
+Data Management with Python, SQLite, and SQLAlchemy.
 
-POST - add task
-GET - show all tasks
-GET + ID - show selected task with specific IT 
-DELETE + ID - delete selected task
+Features:
+
+REGISTER user (post);
+LOGIN user (post) + JTW;
+DELETE single user (delete);
+GET All users - admin only;
+GET single user;
+CHANGE user data for login user;
+CHANGE user role - admin only;
+ADD tweet (post) for login user;
+GET all tweets with comments and likes counted - admin only;
+GET all tweets with comments and likes counted for single user;
+GET single tweet with comments and likes counted and comments with likes counted;
+DELETE single tweet - admin and login user only;
+ADD comment to single tweet (post) - for login user;
+GET all single tweet comments with likes counted;
+GET single comment with likes counted;
+DELETE single comment;
+GET tweet likes;
+GET comment likes;
+ADD tweet like (post) - for login user;
+ADD comment like (post) - for login user;
+FOLLOW user (post) - for login user;
+GET user followers;
+GET user following;
+DELETE follow - for login user;
+GET tweets with comments and likes counted from follow users;
 
 ## How to Set Up Project
 
